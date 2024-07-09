@@ -14,5 +14,6 @@ crash.log
 # Ignore CLI configuration files
 terraform.rc
 
-#
+# secrets
 *.json
+*.tfvars
