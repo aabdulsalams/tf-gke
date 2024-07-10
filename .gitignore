@@ -17,3 +17,6 @@ terraform.rc
 # secrets
 *.json
 *.tfvars
+
+# etc
+helm-canary
