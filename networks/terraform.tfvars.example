@@ -1,0 +1,16 @@
+# providers
+credentials_file            = "../xxxxxx.json"
+project                     = "xxx"
+region                      = "xxx-xxx"
+
+# vpc
+vpc_network                 = "xxx-vpc"
+vpc_subnet                  = "xxx-subnet"
+ip_range                    = "x.x.x.x/x"
+
+# vpc private
+vpc_subnet_private          = "xxx-subnet-private"
+ip_range_private            = "x.x.x.x/x"
+
+# service account id
+kubernetes_svc_id = "kubernetes-service-account"

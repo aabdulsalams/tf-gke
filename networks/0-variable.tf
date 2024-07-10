@@ -30,22 +30,6 @@ variable "ip_range_private" {
   description = "IP Range for VPC Private"
 }
 
-variable "vpc_subnet_jkt" {
-  description = "Subnet for VPC Jakarta"
-}
-
-variable "ip_range_jkt" {
-  description = "IP Range for VPC Jakarta"
-}
-
-variable "vpc_subnet_private_jkt" {
-  description = "Subnet for VPC Private Jakarta"
-}
-
-variable "ip_range_private_jkt" {
-  description = "IP Range for VPC Private Jakarta"
-}
-
 variable "kubernetes_svc_id" {
   description = "Kubernetes Service Account ID"
 }
