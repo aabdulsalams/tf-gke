@@ -16,9 +16,7 @@ resource "google_container_cluster" "init_node" {
     project = var.project
   }
 
-  node_locations = [
-    var.zone,
-  ]
+  node_locations = var.gke_node_locations
 
   remove_default_node_pool = true
   initial_node_count       = 1

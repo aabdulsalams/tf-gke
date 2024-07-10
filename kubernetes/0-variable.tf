@@ -10,8 +10,9 @@ variable "region" {
   description = "Region for GCP manifest"
 }
 
-variable "zone" {
-  description = "Zone for GCP manifest"
+variable "gke_node_locations" {
+  description = "List of node locations"
+  type        = list(string)
 }
 
 variable "vpc_network" {
