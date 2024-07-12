@@ -23,7 +23,7 @@ metadata:
   namespace: default
 subjects:
 - kind: ServiceAccount
-  name: poc-gke-viewer-service-account
+  name: poc-gke-viewer
   namespace: default
 roleRef:
   kind: Role
