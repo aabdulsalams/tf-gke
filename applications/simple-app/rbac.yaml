@@ -1,3 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    iam.gke.io/gcp-service-account: poc-gke-viewer-service-account@poc-salam.iam.gserviceaccount.com
+  name: poc-gke-viewer-service-account
+  namespace: default
+---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -15,7 +23,7 @@ metadata:
   namespace: default
 subjects:
 - kind: ServiceAccount
-  name: poc-gke-viewer-service-account@test-project.iam.gserviceaccount.com
+  name: poc-gke-viewer-service-account
   namespace: default
 roleRef:
   kind: Role
