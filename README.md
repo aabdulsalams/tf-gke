@@ -1,4 +1,7 @@
 # Terraform GKE Setup
+
+![Infrastrucrue Image](Infrasreucture.png)
+
 This repo contains:
 1. Terraform script to create Kubernetes cluster on GCP
 2. Simple application manifest
