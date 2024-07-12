@@ -3,7 +3,7 @@ kind: ServiceAccount
 metadata:
   annotations:
     iam.gke.io/gcp-service-account: poc-gke-viewer-service-account@poc-salam.iam.gserviceaccount.com
-  name: poc-gke-viewer-service-account
+  name: poc-gke-viewer
   namespace: default
 ---
 apiVersion: rbac.authorization.k8s.io/v1
