@@ -49,3 +49,8 @@ or you can run it with command bash setup.sh instead
 #### Sources:
 1. https://registry.terraform.io/providers/hashicorp/google/latest
 2. https://paulhopkins11.github.io/helm-canary
+
+
+#### Notes 
+Add the previous RBAC code, i forgot to add service account manifest. I've added it to this commit:
+https://github.com/aabdulsalams/tf-gke/commit/74c56b1926a94a03f34e1119064d7c92ece8c64d
